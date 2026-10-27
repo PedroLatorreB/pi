@@ -3,3 +3,10 @@
 /agent/auth.json
 /agent/models-store.json
 /agent/npm
+pi-debug.log
+/free.json
+/free.log
+/opencode-catalog-cache.json
+/free-telemetry.json
+/agent/sessions/
+/agent/pi-subagents

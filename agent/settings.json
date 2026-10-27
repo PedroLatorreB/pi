@@ -4,5 +4,7 @@
     "npm:gentle-engram@0.5.0",
     "npm:pi-free",
     "npm:pi-subagents"
-  ]
+  ],
+  "defaultProvider": "cline",
+  "defaultModel": "xingchen-agi/xing4.0-29b-a4b:free"
 }
