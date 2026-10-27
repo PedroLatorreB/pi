@@ -1,0 +1,5 @@
+/agent/bin/
+/agent/node/
+/agent/auth.json
+/agent/models-store.json
+/agent/npm

@@ -1,0 +1,8 @@
+{
+  "lastChangelogVersion": "1.4.0",
+  "packages": [
+    "npm:gentle-engram@0.5.0",
+    "npm:pi-free",
+    "npm:pi-subagents"
+  ]
+}
