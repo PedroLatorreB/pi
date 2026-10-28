@@ -9,18 +9,15 @@ Use `poc-memory`. Load goal/criteria/prior findings; save blockers and user clas
 
 Use `git diff` for unstaged changes, or the diff/range specified by the user.
 Use the reviewer agent when a second opinion is useful.
+**Parallel review** (if `--reviewers`): fan out to ["security", "perf", "ux"] specialists.
 
 Evaluate:
 1. Goal and success-criteria compliance.
-2. Bugs, edge cases, and regressions.
-3. Project conventions, compatibility, and maintainability.
+2. Bugs, edge cases, regressions.
+3. Project conventions, compatibility, maintainability.
 4. Missing tests or validations.
 
-Apply the relevant domain skill:
-- Vue/TypeScript: vue-rules
-- SQL Server: sqlserver-rules
-- SSRS: ssrs-rules
-- API design: api-rules
+Apply relevant domain skill: vue-rules, sqlserver-rules, ssrs-rules, api-rules.
 
 Return:
 - Blockers
@@ -28,7 +25,7 @@ Return:
 - Optional improvements
 - Verdict: approve, approve with changes, or rework
 
-End by asking the user to classify each finding as:
+End by asking user to classify each finding:
 - "I will fix this"
 - "Delegate to implementer"
 - "Defer"

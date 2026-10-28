@@ -6,6 +6,7 @@ description: Prioritize review findings and propose minimal corrections.
 Analyze the latest PoC review for: $ARGUMENTS
 
 Use `poc-memory`. Load `findings`; save user-approved corrections to `approved`; deferred items stay in `findings`.
+**Auto-tag** (if `--auto-classify`): tag findings by severity/type → blocker/important/optional.
 
 For each finding:
 1. Explain why it matters in this project.

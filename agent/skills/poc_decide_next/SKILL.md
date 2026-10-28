@@ -8,6 +8,7 @@ Decide the next step for: $ARGUMENTS
 Use `poc-memory`. Load all PoC keys; update `status` to exactly one valid value.
 If open blockers exist, do not recommend stop. Recommend iterate or delegate.
 Assess the latest review and current diff.
+**Rollback hints**: for each implemented fix, show `git checkout -- <files>` to revert.
 
 Return:
 1. Does the PoC meet the agreed success criteria?

@@ -6,6 +6,7 @@ description: Implement only explicitly approved PoC corrections.
 Implement only the approved corrections for: $ARGUMENTS
 
 Use `poc-memory`. Implement only `approved` items. Update implemented fixes and new risks.
+**Dry-run** (if `--dry-run`): show combined diff preview before applying.
 
 Rules:
 1. Follow the approved plan exactly.

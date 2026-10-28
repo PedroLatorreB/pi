@@ -1,0 +1,10 @@
+{
+  "providers": {
+    "kilo": { "enabled": false },
+    "cline": { "enabled": true },
+    "llm7": { "enabled": false },
+    "tokenrouter": { "enabled": false },
+    "agnes": { "enabled": false },
+    "qoder": { "enabled": true }
+  }
+}

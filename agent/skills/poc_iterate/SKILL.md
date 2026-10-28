@@ -7,6 +7,7 @@ Re-review the PoC after corrections for: $ARGUMENTS
 
 Use `poc-memory`. Load findings/approved; mark resolved items, save new blockers/risks.
 Before recommending stop, verify: no open blockers, approved fixes implemented, validation suggested.
+**Re-validate** against original success criteria; flag scope drift.
 Steps:
 1. Inspect the current diff or specified changes.
 2. Verify that previous blockers were resolved without regressions.
