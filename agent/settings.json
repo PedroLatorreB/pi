@@ -5,7 +5,7 @@
     "extensions/poc.ts"
   ],
   "defaultProvider": "llama.cpp",
-  "defaultModel": "Sharp-MiniCPM5-2B",
+  "defaultModel": "Qwen-3.5-4B-MTP",
   "extensions": [
     "./extensions/poc.ts"
   ],
