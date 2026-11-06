@@ -1,14 +1,16 @@
 {
-  "lastChangelogVersion": "1.4.0",
+  "lastChangelogVersion": "1.5.0",
+  "externalEditor": "nvim",
   "packages": [
-    "npm:gentle-engram@0.5.0",
-    "npm:pi-free",
-    "npm:pi-subagents",
     "extensions/poc.ts"
   ],
-  "defaultProvider": "kilo",
-  "defaultModel": "nvidia/nemotron-3-ultra-550b-a55b:free",
+  "defaultProvider": "llama.cpp",
+  "defaultModel": "Sharp-MiniCPM5-2B",
   "extensions": [
     "./extensions/poc.ts"
-  ]
+  ],
+  "extensionChangelogVersions": {
+    "{\"source\":\"npm:pi-subagents\",\"scope\":\"user\"}": "0.84.0"
+  },
+  "defaultThinkingLevel": "low"
 }
