@@ -54,7 +54,7 @@ async function runPiHeadless(prompt: string): Promise<string> {
         "-p",
         "--no-session",
         "--tools", "read,bash",
-        "--model", "llama.cpp/Sharp-MiniCPM5-2B",
+        "--model", "llama.cpp/Qwen2.5-Coder-3B",
         "--system-prompt", REVIEWER_SYSTEM_PROMPT,
       ],
       { stdio: ["pipe", "pipe", "pipe"] },
